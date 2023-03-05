@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>News Feed</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<style>
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.article img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.article h2 {
+  margin: 0;
+}
+
+.article p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.article a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.article a:hover {
+  text-decoration: underline;
+}
+</style>
+
+  <body>
+    <div class="container"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
